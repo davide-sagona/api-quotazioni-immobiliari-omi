@@ -2,6 +2,7 @@
 Un'API totalmente gratuita che fornisce le quotazioni immobiliari OMI, basata sui <a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari " target="_blank" rel="noopener noreferrer">dati ufficiali dell'Agenzia delle Entrate</a>.
 
 Per altri strumenti gratuiti: [3eurotools.it](https://3eurotools.it)
+
 Pagina d'origine: [3eurotools.it/api-quotazioni-immobiliari-omi](https://3eurotools.it/api-quotazioni-immobiliari-omi)
 # F.A.Q. generali
 #### Cosa sono le quotazioni immobiliari OMI?
