@@ -1,6 +1,7 @@
 # API Quotazioni Immobiliari OMI (con dati ufficiali) 💶🏡
 Un'API totalmente gratuita che fornisce le quotazioni immobiliari OMI, basata sui <a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari " target="_blank" rel="noopener noreferrer">dati ufficiali dell'Agenzia delle Entrate</a>.
 
+Per altri strumenti gratuiti: [3eurotools.it](https://3eurotools.it)
 # F.A.Q. generali
 #### Cosa sono le quotazioni immobiliari OMI?
 Le quotazioni immobiliari OMI sono dei valori di riferimento forniti dall’Agenzia delle Entrate per stimare in modo rapido il prezzo di vendita o di affitto di un immobile, sulla base della sua tipologia, ubicazione e della superficie espressa in metri quadrati.
@@ -120,5 +121,4 @@ Per utilizzare il servizio è sufficiente effettuare una semplice richiesta **GE
 | **Gestione del dataset**     | Richiede la gestione manuale di un dataset, che può risultare pesante per sistemi con risorse limitate.                   | Nessuna necessità di gestire dataset localmente: l'API fornisce gratuitamente i dati in tempo reale su richiesta.       |
 | **Aggiornamenti**            | Il dataset deve essere scaricato e integrato manualmente ogni semestre, con un processo ripetitivo e soggetto a errori.            | Nessun pensiero ad aggiornare i dati, vengono automaticamente utilizzati quelli più recenti.     |
 | **Tempo richiesto**          | Processo lungo per scaricare, processare e integrare il dataset nel sistema, con ore di lavoro per ogni aggiornamento.            | Risultati istantanei: basta una chiamata API per ottenere i dati necessari.                              |
-
 
