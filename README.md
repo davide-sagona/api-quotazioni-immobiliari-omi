@@ -2,6 +2,7 @@
 Un'API totalmente gratuita che fornisce le quotazioni immobiliari OMI, basata sui <a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari " target="_blank" rel="noopener noreferrer">dati ufficiali dell'Agenzia delle Entrate</a>.
 
 Per altri strumenti gratuiti: [3eurotools.it](https://3eurotools.it)
+Pagina d'origine: [3eurotools.it/api-quotazioni-immobiliari-omi](https://3eurotools.it/api-quotazioni-immobiliari-omi)
 # F.A.Q. generali
 #### Cosa sono le quotazioni immobiliari OMI?
 Le quotazioni immobiliari OMI sono dei valori di riferimento forniti dall’Agenzia delle Entrate per stimare in modo rapido il prezzo di vendita o di affitto di un immobile, sulla base della sua tipologia, ubicazione e della superficie espressa in metri quadrati.
@@ -59,7 +60,7 @@ Per utilizzare il servizio è sufficiente effettuare una semplice richiesta **GE
 ### Esempi di richieste tramite browser
 
 #### **Esempio di richiesta completa per un appartamento di 100mq a Palermo, zona omi B3, mostrando solo le quotazioni di compravendita:**
-      https://3eurotools.it/valori_omi?codice_comune=G273&tipo_immobile=abitazioni_civili&metri_quadri=100&zona_omi=B3&operazione=acquisto
+      https://3eurotools.it/api-quotazioni-immobiliari-omi/ricerca?codice_comune=G273&tipo_immobile=abitazioni_civili&metri_quadri=100&zona_omi=B3&operazione=acquisto
 
 #### **Output:**
 
@@ -84,7 +85,7 @@ Per utilizzare il servizio è sufficiente effettuare una semplice richiesta **GE
 ### Esempio di implementazione in Python:
     import requests
 
-    url = "https://3eurotools.it/valori_omi"
+    url = "https://3eurotools.it/api-quotazioni-immobiliari-omi/ricerca"
     params = {
         "codice_comune": "G273",
         "metri_quadri": 100,
@@ -107,7 +108,7 @@ Per utilizzare il servizio è sufficiente effettuare una semplice richiesta **GE
       tipo_immobile: "abitazioni_di_tipo_economico"
     });
     
-    fetch("https://3eurotools.it/valori_omi?" + params)
+    fetch("https://3eurotools.it/api-quotazioni-immobiliari-omi/ricerca?" + params)
       .then(response => response.text())
       .then(data => console.log(data));
 
