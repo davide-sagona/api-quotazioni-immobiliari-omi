@@ -1,5 +1,5 @@
 # API Quotazioni Immobiliari OMI (con dati ufficiali) 💶🏡
-Un'API totalmente gratuita che fornisce le quotazioni immobiliari OMI, basata sui [dati ufficiali dell'Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari).
+Un'API totalmente gratuita che fornisce le quotazioni immobiliari OMI, basata sui <a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari " target="_blank" rel="noopener noreferrer">dati ufficiali dell'Agenzia delle Entrate</a>.
 
 # F.A.Q. generali
 #### Cosa sono le quotazioni immobiliari OMI?
@@ -7,8 +7,7 @@ Le quotazioni immobiliari OMI sono dei valori di riferimento forniti dall’Agen
 
 #### Sono affidabili?
 Rappresentano il miglior per ottenere una stima di un immobile avendo pochissime informazioni, sono rilasciate dall'Agenzia delle Entrate e si basano sugli atti di compravendita e sui contratti di locazione dell'ultimo semestre (attualmente il secondo semestre del 2024).
-
-[Per saperne di più](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari).
+<a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari" target="_blank" rel="noopener noreferrer">Per saperne di più</a>
 
 #### Per utilizzare l'API è necessario effettuare un login?
 No, l'API si utilizza grazie a una semplice chiamata che non richiede autenticazione (le istruzioni sono sotto).
@@ -28,10 +27,10 @@ Per aumentare il limite, contattami a: d.sagona.20@gmail.com
 
 Per utilizzare il servizio è sufficiente effettuare una semplice richiesta **GET** fornendo i seguenti parametri:
 
-- **`codice_comune`** – **Obbligatorio**. È il [codice catastale del comune](https://www.agenziaentrate.gov.it/portale/documents/20143/448384/Tabella+codici+catastali+comuni_T4_codicicatastali_comuni_24_05_2019.pdf/d4fa70bd-f4bd-caba-24cb-5cc3611237c0) (es. `G273` per Palermo).
+- **`codice_comune`** – **Obbligatorio**. È il <a href="https://www.agenziaentrate.gov.it/portale/documents/20143/448384/Tabella+codici+catastali+comuni_T4_codicicatastali_comuni_24_05_2019.pdf/d4fa70bd-f4bd-caba-24cb-5cc3611237c0" target="_blank" rel="noopener noreferrer">codice catastale del comune</a> (es. `G273` per Palermo).
 - **`metri_quadri`** – **Facoltativo**. Numero di metri quadrati commerciali dell'immobile. Il valore predefinito è `1`.
 - **`operazione`** – **Facoltativo**. Specifica il tipo di operazione: `affitto` o `acquisto`. Se non indicato, vengono restituiti i dati per entrambe le opzioni.
-- **`zona_omi`** – **Facoltativo**. Permette di filtrare i risultati per zona OMI. Se non specificata, vengono mostrati i dati dell’intero comune. Puoi [trovare la zona OMI di interesse qui](https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php).
+- **`zona_omi`** – **Facoltativo**. Permette di filtrare i risultati per zona OMI. Se non specificata, vengono mostrati i dati dell’intero comune. Puoi <a href="https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php" target="_blank" rel="noopener noreferrer">trovare la zona OMI di interesse qui</a>.
 - **`tipo_immobile`** – **Facoltativo**. Indica la tipologia di immobile (es. `ville_e_villini`). Consulta la sezione qui sotto per l’elenco completo delle tipologie ammesse.
 
 **Elenco di valori ammessi per tipo_immobile (le categorie tra parentesi sono puramente indicative):**
