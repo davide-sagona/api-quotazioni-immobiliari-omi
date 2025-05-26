@@ -8,15 +8,17 @@ Pagina d'origine: [3eurotools.it/api-quotazioni-immobiliari-omi](https://3euroto
 #### Cosa sono le quotazioni immobiliari OMI?
 Le quotazioni immobiliari OMI sono dei valori di riferimento forniti dall’Agenzia delle Entrate per stimare in modo rapido il prezzo di vendita o di affitto di un immobile, sulla base della sua tipologia, ubicazione e della superficie espressa in metri quadrati.
 
-#### Sono affidabili?
-Rappresentano il miglior per ottenere una stima di un immobile avendo pochissime informazioni, sono rilasciate dall'Agenzia delle Entrate e si basano sugli atti di compravendita e sui contratti di locazione dell'ultimo semestre (attualmente il secondo semestre del 2024).
+#### Queste quotazioni sono affidabili?
+Si, rappresentano il miglior per ottenere una stima di un immobile avendo pochissime informazioni, sono rilasciate dall'Agenzia delle Entrate e si basano sugli atti di compravendita e sui contratti di locazione dell'ultimo semestre (attualmente il secondo semestre del 2024).
 <a href="https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari" target="_blank" rel="noopener noreferrer">Per saperne di più</a>
 
 #### Per utilizzare l'API è necessario effettuare un login?
 No, l'API si utilizza grazie a una semplice chiamata che non richiede autenticazione (le istruzioni sono sotto).
 
+Tuttavia, come prevede la licenza MIT, è obbligatorio attribuire i crediti in caso di utilizzo. Dunque si prega di linkare la [pagina web ufficiale dell'API](https://3eurotools.it/api-quotazioni-immobiliari-omi) in caso di utilizzo del servizio in progetti pubblici.
+
 #### Non esistono le API ufficiali fornite dall'Agenzia delle Entrate?
-Domanda retorica, no. Questo è il primo servizio libero e gratuito per accedere automaticamente alle quotazioni OMI più aggiornate.
+Domanda retorica, no. Questo è il primo (e attualmente unico) servizio libero e gratuito per accedere automaticamente alle quotazioni OMI più aggiornate.
 
 Il portale dell'Agenzia delle Entrate permette di accedere manualmente ai dati OMI. Però, al contrario di questa API, richiede di completare un CAPTCHA per ogni richiesta.
 
