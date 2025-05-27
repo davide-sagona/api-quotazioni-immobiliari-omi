@@ -20,11 +20,11 @@ Tuttavia, come prevede la licenza MIT, è obbligatorio attribuire i crediti in c
 #### Non esistono le API ufficiali fornite dall'Agenzia delle Entrate?
 Domanda retorica, no. Questo è il primo (e attualmente unico) servizio libero e gratuito per accedere automaticamente alle quotazioni OMI più aggiornate.
 
-Il portale dell'Agenzia delle Entrate permette di accedere manualmente ai dati OMI. Però, al contrario di questa API, richiede di completare un CAPTCHA per ogni richiesta.
+Oltre a non fornire API, il portale dell'Agenzia delle Entrate ha vari limiti: ad esempio è necessario completare manualmente un CAPTCHA ogni volta che si vuole inoltrare una richiesta.
 
 #### Quali sono i limiti di utilizzo?
 Il servizio è libero, anche per uso commerciale. Le richieste sono illimitate, ma non troppe in poco tempo: hai un credito di 100 richieste, che si ricarica al ritmo di 1 richiesta al secondo.
-Per aumentare il limite, contattami a: d.sagona.20@gmail.com
+Per aumentare i limiti, ottenere risposte più rapide ed eliminare l’obbligo di attribuzione, contattami: d.sagona.20@gmail.com
 
 ***
 
