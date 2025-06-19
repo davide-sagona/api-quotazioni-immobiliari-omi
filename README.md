@@ -15,7 +15,7 @@ Si, rappresentano il miglior per ottenere una stima di un immobile avendo pochis
 #### Per utilizzare l'API è necessario effettuare un login?
 No, l'API si utilizza grazie a una semplice chiamata che non richiede autenticazione (le istruzioni sono sotto).
 
-Tuttavia, come prevede la licenza MIT, è obbligatorio attribuire i crediti in caso di utilizzo. Dunque si prega di linkare la [pagina web ufficiale dell'API](https://3eurotools.it/api-quotazioni-immobiliari-omi) in caso di utilizzo del servizio in progetti pubblici.
+Tuttavia, è obbligatorio attribuire i crediti in caso di utilizzo. Dunque si prega di linkare la [pagina web ufficiale dell'API](https://3eurotools.it/api-quotazioni-immobiliari-omi) in caso di utilizzo del servizio in progetti pubblici.
 
 #### Non esistono le API ufficiali fornite dall'Agenzia delle Entrate?
 Domanda retorica, no. Questo è il primo (e attualmente unico) servizio libero e gratuito per accedere automaticamente alle quotazioni OMI più aggiornate.
