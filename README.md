@@ -23,7 +23,7 @@ Domanda retorica, no. Questo è il primo (e attualmente unico) servizio libero e
 Oltre a non fornire API, il portale dell'Agenzia delle Entrate ha vari limiti: ad esempio è necessario completare manualmente un CAPTCHA ogni volta che si vuole inoltrare una richiesta.
 
 #### Quali sono i limiti di utilizzo?
-Il servizio è libero, anche per uso commerciale. Le richieste sono illimitate, ma non troppe in poco tempo: hai un credito di 100 richieste, che si ricarica al ritmo di 1 richiesta al secondo.
+Il servizio è libero, anche per uso commerciale. Le richieste sono illimitate, ma non troppe in poco tempo: hai un credito di 100 richieste, che si ricarica al ritmo di 1 richiesta ogni 3 secondi.
 Per aumentare i limiti, ottenere risposte più rapide ed eliminare l’obbligo di attribuzione, contattami: d.sagona.20@gmail.com
 
 ***
